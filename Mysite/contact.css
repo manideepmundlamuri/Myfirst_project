@@ -1,0 +1,41 @@
+body{
+   
+    background-image: url('bg_image.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size: 100%;
+    margin-top: 20px;
+}
+a{  
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: gray;
+    margin: 0px 60px 0px 50px;
+    background-color:lightcyan;
+    padding: 10px;
+    border-radius: 10px;   
+}
+a:hover{
+    color:  black;
+    background-color: orange;
+    padding: 10px;
+  
+    text-decoration: underline;
+
+    transition: 0.4s;}
+    a:active{
+        color: darkcyan;
+    }
+h1{
+    text-align: center;
+    color: red;
+    background-color:lightgray;
+    margin-top: 20px;
+}
+ul{
+    text-align: center;
+}
+ul li{
+    font-size: 30px;
+}

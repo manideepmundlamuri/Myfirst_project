@@ -1,0 +1,93 @@
+body{
+   
+    background-image: url('bg_image.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size: 100%;
+    margin-top: 20px;
+    
+}
+a{  
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: gray;
+    margin: 0px 60px 0px 50px;
+    background-color:lightcyan;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+a:hover{
+    color:  black;
+    background-color: orange;
+    padding: 10px;
+    overflow: hidden;
+    text-decoration: underline;
+
+    transition: 0.4s;
+}
+    a:active{
+        color: darkcyan;
+    }
+
+h1{
+    text-align: center;
+    background-color: lightgray;
+    color:green;
+    margin-top: 20px;
+
+}
+form{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+}
+input{
+    font-size: 20px;
+}
+div{
+    align-items: center;
+    border: 3px groove lightblue;
+    width: 400px;
+    margin-left:500px ;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0px 0px 0px 2px lightseagreen; 
+    
+}
+input[type="email"]{
+    text-transform: lowercase;
+    box-shadow: 0px 0px 0px 0px gray ;
+}
+input[type="text"]{
+    text-transform: capitalize;
+    box-shadow: 0px 0px 0px 0px gray ;
+
+}
+input[type="number"]{
+    box-shadow: 0px 0px 0px 0px gray ;
+
+}
+input[type="password"]{
+    box-shadow: 0px 0px 0px 0px gray ;
+
+}
+input[type="submit"]{
+    color:white;
+    background-color:blue ;
+    padding: 5px 10px;
+   
+}
+input[type="reset"]{
+    color:red;
+    background-color: blue;
+    padding: 5px 10px;
+    font-weight:bold;
+}
+.select1{
+    padding: 5px 10px;
+    box-shadow: 0px 0px 0px 0px gray ;
+    color: red;
+
+}

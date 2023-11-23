@@ -1,0 +1,106 @@
+body{
+   
+    background-image: url('bg_image.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size: 100%;
+    margin-top: 20px;
+    
+}
+a{  
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: gray;
+    margin: 0px 60px 0px 50px;
+    background-color:lightcyan;
+    padding: 10px;
+    border-radius: 10px;
+}
+a:hover{
+    color:  black;
+    background-color: orange;
+    padding: 10px;
+text-decoration: underline;
+transition: 0.5s;}
+    a:active{
+        color: darkcyan;
+    }
+h1{
+    text-align: center;
+    background-color: lightgray;
+    color: blueviolet;
+    margin-top: 20px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 20px 20px 20px 20px;
+    background-color: yellow;
+    padding: 20px;
+}
+span{
+    color: red;
+}
+h2{
+    color:darkslateblue;
+    margin-left: 20px;
+}
+span{
+    color: red;
+}  
+
+li{
+    text-align: left;
+   font-size: 20px; 
+   list-style-position:inside;
+}
+
+.list_section{
+    text-align: center;
+    border: 3px groove lightblue;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 300px;
+    margin: 20px 0px 0px 550px;
+    
+}
+.li1{
+    list-style-image: url(toilt_icon.png);
+}
+.li2{
+  list-style-image: url(security_icon.png);
+}
+.li3{
+    list-style-image:url(water_icon.png) ; 
+}
+.li4{
+    list-style-image:url(playarea_icon.png);
+}
+.li5{
+    list-style-image: url(gym_icon.png);
+}
+.li6{
+    list-style-image: url(power_icon.png);
+}
+.li7{
+     list-style-image: url(road_icon.png);
+}
+.li8{
+     list-style-image: url(citizen_support_icon.png);
+}
+.li9{
+    list-style-image:url(wheat_icon.png) ;
+}
+.li10{
+    list-style-image: url(library_icon.png);
+}
+.li11{
+    list-style-image: url(pet-house_icon.png);
+}
+.li12{
+    list-style-image: url(cinema_icon.png);
+}
+.li13{
+    list-style-image: url(skill_development_icon.png);
+}
